@@ -92,7 +92,7 @@ function roll() {
 function drawCoordinate(x, y) {
   const gap = 0;
   const size = 2;
-  const offset = gap / 2 + 400;
+  const offset = gap / 2 + innerWidth / 3;
 
   x = offset + size * x + gap * x;
   y = offset + size * y + gap * y;
